@@ -1,0 +1,29 @@
+.form_field {
+    margin-left: 50px;
+}
+
+.input_field {
+    width: 480px;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 1.5rem;
+}
+
+#something {
+    height: 7rem;
+}
+
+#done {
+    padding: 0.5em;
+    display: block;
+    margin: 0 auto;
+    background-color: teal;
+    border: none;
+}
+
+#done:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
