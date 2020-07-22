@@ -1,14 +1,19 @@
-.form_field {
-    margin-left: 50px;
-}
-
 .input_field {
     width: 480px;
 }
 
 table {
     border-collapse: separate;
-    border-spacing: 1.5rem;
+    border-spacing: 2rem;
+}
+
+.font-size {
+    font-size: 1.2rem;
+}
+
+.detail{
+    height:7rem;
+    width: 150px;
 }
 
 #something {
@@ -16,7 +21,9 @@ table {
 }
 
 #done {
-    padding: 0.5em;
+    padding: 0.3em 0.6em;
+    font-size: 2.5rem;
+    color: aliceblue;
     display: block;
     margin: 0 auto;
     background-color: teal;

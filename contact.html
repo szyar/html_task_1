@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="./css/normalize.css">
@@ -7,6 +8,7 @@
   <link rel="stylesheet" href="./css/contact.css">
   <title>株式会社DIVE</title>
 </head>
+
 <body>
   <div class="container">
     <header class="header clearfix">
@@ -15,10 +17,10 @@
       </a>
       <nav>
         <ul class="top_menu">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="business.html">Business Content</a></li>
-          <li><a href="company.html">Company Profle</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="index.html">ホーム</a></li>
+          <li><a href="business.html">事業内容</a></li>
+          <li><a href="company.html">会社概要</a></li>
+          <li><a href="contact.html">お問い合わせ</a></li>
         </ul>
       </nav>
     </header>
@@ -27,9 +29,9 @@
       <aside class="side_menu">
         <nav>
           <ul>
-            <li><a href="business.html">Business Content</a></li>
-            <li><a href="company.html">Company Profile</a></li>
-            <li class="point"><a href="contact.html">Contact</a></li>
+            <li><a href="business.html">事業内容</a></li>
+            <li><a href="company.html">会社概要</a></li>
+            <li class="point"><a href="contact.html">お問い合わせ</a></li>
           </ul>
         </nav>
       </aside>
@@ -37,28 +39,28 @@
         <form class="form_field clearfix">
           <table>
             <tr>
-              <th>Name</th>
+              <th class="font-size">お名前</th>
               <td>
-                <input type ="text" name="name" class="input_field">
+                <input type="text" name="name" class="input_field">
               </td>
             </tr>
             <tr>
-              <th>Email</th>
+              <th class="font-size">メールアドレス</th>
               <td>
                 <input type="email" name="email" class="input_field">
               </td>
             </tr>
             <tr>
-              <th>Check</th>
+              <th class="font-size">性別</th>
               <td>
-                <input type="checkbox" id="s" name="s">
-                <label for="s">S</label>
-                <input type="checkbox" id="h" name="h">
-                <label for="h">H</label>
+                <input type="checkbox" id="male" name="male">
+                <label for="male" class="font-size">男</label>
+                <input type="checkbox" id="female" name="female">
+                <label for="female" class="font-size">女</label>
               </td>
             </tr>
             <tr>
-              <th>Something</th>
+              <th class="detail font-size">お問い合わせ内容</th>
               <td>
                 <input type="text" name="something" id="something" class="input_field">
               </td>
@@ -66,7 +68,7 @@
             <tr>
               <th></th>
               <td>
-                <input type="submit" value="Send" id="done">
+                <input type="submit" value="送信" id="done">
               </td>
             </tr>
           </table>
@@ -78,4 +80,5 @@
     </footer>
   </div>
 </body>
+
 </html>
